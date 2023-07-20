@@ -1,0 +1,108 @@
+#folderPaneHeaderBar{
+	font-size: 0.8em !important;
+}
+
+.container{
+	font-size: 0.9em !important;
+	padding: 10px 0px;
+}
+
+tr.collapsed{
+	height: 80px !important;
+	box-sizing: border-box !important;
+}
+
+.thread-card-container{
+	--star-opacity: 0;
+	--star-width: 20px
+}
+.thread-card-container:hover{
+	--star-opacity: 1;
+	--star-width: 20px;
+}
+
+
+.date{
+  opacity: 0.7 !important;
+	font-size: 0.75em !important;;
+}
+
+.subject{
+	padding-left: 10px;
+	font-size: 0.9em !important;
+}
+
+.button-star{
+  min-height: 20px !important;
+	min-width: var(--star-width) !important;
+	background-size: cover !important;
+	opacity: var(--star-opacity) !important;
+	transition: opacity 0.5s ease-out;
+}
+
+tr[data-properties~="flagged"] .button-star{
+	opacity: 1 !important;
+}
+
+
+.email-action-flagged{
+	padding: 0px 10px !important;
+	opacity: 1 !important;
+}
+
+.multi-recipient-row{
+	padding: 0px 10px;
+}
+
+.message-header-view-button{
+	cursor: pointer !important;
+}
+
+
+.header-recipient{
+	padding: 0px 10px !important;
+}
+
+.recipient-multi-line{
+	padding-left: 10px !important;
+}
+
+.recipient-multi-line-address{
+	padding-left: 10px !important;
+}
+
+#expandedsubjectBox{
+	padding-bottom: 10px !important;
+	font-size: 1.4em !important;
+	text-align: center !important;
+}
+
+.message-header-datetime{
+	opacity: 0.7 !important;
+}
+
+.toolbarbutton-1{
+	border-color: rgba(255,255,255,0) !important;
+	padding: 10px 10px !important;
+}
+
+.toolbarbutton-1:hover{
+  border-color: inherit !important;
+}
+
+.toolbarbutton-1 > .toolbarbutton-icon{
+	width: 22px !important;
+	height: 22px !important;
+}
+
+.toolbarbutton-1 > .toolbarbutton-text{
+		display: none !important;
+}
+
+.recipient-address-book-button > img {
+	height: 15px !important;
+}
+
+#unifiedToolbar{
+	padding-block: 0px !important;
+}
