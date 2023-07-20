@@ -106,3 +106,7 @@ tr[data-properties~="flagged"] .button-star{
 #unifiedToolbar{
 	padding-block: 0px !important;
 }
+
+#spacesPinnedButton{
+	display: none !important;
+}
